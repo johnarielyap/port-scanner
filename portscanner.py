@@ -2,13 +2,13 @@ import pyfiglet
 import sys
 import socket
 
-ascci_banner = pyfiglet.figlet_format("PORT SCANNER LITE")
+ascci_banner = pyfiglet.figlet_format("PORT SCANNER")
 print(ascci_banner)
 
 target = input(str(" TARGET IP ADDRESS:"))
 
-print("\nscanning target..." + target)
-
+print("\nSCANNING ON " + target)
+print("GRAB SOME COFFEE WHILE WAITING")
 
 try:
 
