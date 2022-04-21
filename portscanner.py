@@ -7,7 +7,7 @@ print(ascci_banner)
 
 target = input(str(" TARGET IP ADDRESS:"))
 
-print("scanning target..." + target)
+print("\nscanning target..." + target)
 
 
 try:
