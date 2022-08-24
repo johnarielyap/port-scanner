@@ -2,7 +2,7 @@ import pyfiglet
 import sys
 import socket
 
-ascci_banner = pyfiglet.figlet_format("PORT SCANNER")
+ascci_banner = pyfiglet.figlet_format("PORT SCANNER by: ARIEL")
 print(ascci_banner)
 
 target = input(str(" TARGET IP ADDRESS:"))
