@@ -9,7 +9,7 @@ target = input(str("TARGET IP ADDRESS:"))
 
 print("\nSCANNING ON " + target)
 print("GRAB SOME COFFEE WHILE WAITING")
-print("GRAB SOME COFFEE WHILE WAITING")
+print("GOT YOUR COFFEE READY?")
 
 try:
 
