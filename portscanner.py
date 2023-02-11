@@ -28,4 +28,5 @@ except KeyboardInterrupt:
 
 except socket.error:
   print("\n Host not responding")
+  print("\n Host not responding")
   sys.exit()
