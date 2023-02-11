@@ -5,10 +5,11 @@ import socket
 ascci_banner = pyfiglet.figlet_format("PORT SCANNER by: ARIEL")
 print(ascci_banner)
 
-target = input(str(" TARGET IP ADDRESS:"))
+target = input(str("TARGET IP ADDRESS:"))
 
 print("\nSCANNING ON " + target)
 print("GRAB SOME COFFEE WHILE WAITING")
+print("GOT YOUR COFFEE READY?")
 
 try:
 
@@ -26,5 +27,6 @@ except KeyboardInterrupt:
   sys.exit()
 
 except socket.error:
+  print("\n Host not responding")
   print("\n Host not responding")
   sys.exit()
