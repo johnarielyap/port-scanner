@@ -2,13 +2,14 @@ import pyfiglet
 import sys
 import socket
 
-ascci_banner = pyfiglet.figlet_format("PORT SCANNER by: ARIEL")
+ascci_banner = pyfiglet.figlet_format("PORT SCANNER")
 print(ascci_banner)
 
-target = input(str(" TARGET IP ADDRESS:"))
+target = input(str("TARGET IP ADDRESS:"))
 
-print("\nSCANNING ON " + target)
+print("\n SCANNING ON " + target)
 print("GRAB SOME COFFEE WHILE WAITING")
+print("\n GOT YOUR COFFEE?")
 
 try:
 
@@ -23,8 +24,10 @@ try:
 
 except KeyboardInterrupt:
   print("\n Exiting...")
+  print("\n Exiting Please Wait...")
   sys.exit()
 
 except socket.error:
   print("\n Host not responding")
+  print("\n not responding")
   sys.exit()
